@@ -41,11 +41,14 @@ export const ItemListContainer = () => {
     // }, [])
 
 
+    
+                        /* IMAGEN CARGA (LOADING) */
+    
     return (
         <section className="container my-5">
             {
                 loading 
-                    ? <h2>Cargando...</h2>
+                    ? <img src="https://i.pinimg.com/736x/61/ea/94/61ea94b38db7f292dcf6dda1513b8253.jpg" alt="" />
                     : <ItemList productos={items}/>
             }
             

@@ -38,7 +38,7 @@ export const ItemDetail = ({ id, name, price, img, description, category, stock}
             {/* opción de compra / contador */}
 
             { isInCart(id) 
-                ? <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+                ? <Link to="/cart" className="btn btn-success">Ir a Carrito</Link>
                 :
                     <>
                         <ItemCount cantidad={cantidad} modify={setCantidad} max={stock}/>

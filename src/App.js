@@ -50,7 +50,7 @@ function App() {
               </Route>
 
               <Route exact path="/contacto">
-                  <h1>Contacto</h1>
+                  <h1>compras realizadas</h1>
               </Route>
 
               <Route exact path="/cart">
